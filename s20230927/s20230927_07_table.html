@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link a tag</title>
+    <style>
+        table, tr, td{
+            border: 1px solid red;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            width: 80%;
+        }
+        h1{
+            color: red;
+        }
+        #testID{
+            color: green;
+        }
+        .testClass{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- a helf=url -->
+
+    <h1>table picsum</h1>
+    <h3 id="testID">test ID h3</h3>
+    <h3 class="testClass">test Class h3</h3>
+
+    <table border="1" width="100%">
+        <tr>
+            <th>NO.</th>
+            <th>圖片介紹</th>
+            <th>文字介紹</th>
+        </tr>
+        <!-- table row -->
+        <tr>
+            <!-- table data -->
+            <td width="5%">1</td>
+            <td width="60%">
+                <a href="./views/f1.html">
+                    <img src="https://picsum.photos/id/237/200/300" alt="">
+                </a>
+            </td>
+            <td>美味的中式料理</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>
+                <a href="./views/f2.html">
+                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
+                </a>
+            </td>
+            <td>豐富的西式料理</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>
+                <a href="./views/f3.html">
+                    <img src="https://picsum.photos/200/300/?blur" alt="">
+                </a>
+            </td>
+            <td>華麗的法式料理</td>
+        </tr>
+    </table>
+    <hr>
+</body>
+
+</html>
